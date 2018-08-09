@@ -1,6 +1,14 @@
 class Driver{
-  construct(name, date)
+  construct(name, date){
+    this.name = name;
+    this.date = date;
+  }
+  startDate(){
+  }
+  yearsExperienceFromBeginningOf(){
+
+  }
 }
 class Route{
-  
+
 }
