@@ -20,4 +20,13 @@ class Route{
     const horizontalDistance = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal);
     return verticalDistance + horizontalDistance;
   }
+  estimatedTime(peakHours){
+    if (peakHours){
+      return this.blocksTravelled()/2;
+    }else{
+      return this.blocksTravelled()/3;
+    }
+    }
+    }
+  }
 }
